@@ -12,6 +12,10 @@ cp dev.env .env
 sudo cp sudo cp /etc/letsencrypt/live/<your-website>/fullchain.pem certs/
 sudo cp sudo cp /etc/letsencrypt/live/<your-website>/privkey.pem certs/
 
+# change access to folders
+chmod 777 data/
+chmod 644 certs/
+
 # run couchdb server with docker-compose
 docker compose up -d
 ```
