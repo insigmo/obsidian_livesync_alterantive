@@ -36,7 +36,3 @@
 - Официальная документация плагина: [vrtmrz/obsidian-livesync](https://github.com/vrtmrz/obsidian-liveync)
 - Руководство по настройке собственного сервера: [Setup Own Server](https://github.com/vrtmrz/obsidian-livesync/blob/main/docs/setup_own_serve.md)
 - Обсуждение и поддержка: [Discussions](https://github.com/vrtmrz/obsidian-livesync/discussons)
-
-## 🤝 Поддержка
-
-Если у вас возникли вопросы или предложения, не стесняйтесь создавать issue или отправлять pull request.
