@@ -8,6 +8,8 @@ services:
     volumes:
       - ./data:/opt/couchdb/data
       - ./local.ini:/opt/couchdb/etc/local.ini
+      - ./certs/fullchain.pem:/etc/ssl/certs/fullchain.pem
+      - ./certs/privkey.pem:/etc/ssl/certs/privkey.pem
     ports:
       - "6984:6984"
     restart: unless-stopped
